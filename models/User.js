@@ -1,6 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 // Schema to create User model
+//Removed virtuals causing error - add in later
 const userSchema = new Schema(
   {
     username: {
@@ -27,15 +28,10 @@ const userSchema = new Schema(
         ref: 'user',
       },
     ],
-    friendCount: {
-      type: Number,
-      get: () => friends.length,
-    },
   },
   {
     toJSON: {
       getters: true,
-      virtuals: true,
     },
   }
 );
