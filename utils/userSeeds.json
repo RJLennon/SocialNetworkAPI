@@ -1,0 +1,42 @@
+[
+    {
+      "username": "Brian Kernighan",
+      "email": "brian.kernighan@example.com"
+    },
+    {
+      "username": "Max Kanat-Alexander",
+      "email": "max.kanat-alexander@example.com"
+    },
+    {
+      "username": "Why The Lucky Stiff",
+      "email": "why.the.lucky.stiff@example.com"
+    },
+    {
+      "username": "Kent Beck",
+      "email": "kent.beck@example.com"
+    },
+    {
+      "username": "Edward V. Berard",
+      "email": "edward.v.berard@example.com"
+    },
+    {
+      "username": "Alan Kay",
+      "email": "alan.kay@example.com"
+    },
+    {
+      "username": "C.A.R. Hoare",
+      "email": "c.a.r.hoare@example.com"
+    },
+    {
+      "username": "David Thomas",
+      "email": "david.thomas@example.com"
+    },
+    {
+      "username": "Donald Knuth",
+      "email": "donald.knuth@example.com"
+    },
+    {
+      "username": "Anonymous",
+      "email": "anonymous@example.com"
+    }
+  ]
