@@ -71,7 +71,8 @@ async removeReaction(req, res) {
   try {
     const dbThoughtData = await Thought.updateOne(
       { _id: req.params.thoughtId },
-      { $pull: { reactions: { reactionId: req.params.reactionId } } }
+      { $pull: { reactions: { reactionId: req.params.reactionId } } },
+      { new: true }
     );
     res.json(dbThoughtData);
   } catch (err) {
