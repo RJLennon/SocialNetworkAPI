@@ -1,6 +1,7 @@
 const User = require('../models/User');
 
 module.exports = {
+  // get all users
   async getUsers(req, res) {
     try {
       const userData = await User.find();
@@ -9,6 +10,7 @@ module.exports = {
       res.status(500).json(err);
     }
   },
+  // get single user by ID
   async getSingleUser(req, res) {
     try {
       const user = await User.findOne({ _id: req.params.userId })
