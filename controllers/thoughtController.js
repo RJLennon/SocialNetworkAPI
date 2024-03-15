@@ -58,7 +58,8 @@ async addReaction(req, res) {
   try {
     const dbThoughtData = await Thought.updateOne(
       { _id: req.params.thoughtId },
-      { $push: { reactions: req.body } }
+      { $push: { reactions: req.body } },
+      { new: true, runValidators: true}
     );
     res.json(dbThoughtData);
   } catch (err) {
