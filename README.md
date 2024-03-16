@@ -27,3 +27,5 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 The following animations show examples of the application's API routes being tested in Insomnia.
 
 The following animation shows GET routes to return all users and all thoughts being tested in Insomnia:
+
+[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./images/Challenge%2012%20Thumbnail.png)](https://drive.google.com/file/d/1DKtrOd_McTvqqgtp8G5Aa45Hi72gYL1t/view?usp=sharing)
