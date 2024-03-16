@@ -1,7 +1,6 @@
 const { Schema, model } = require('mongoose');
 
 // Schema to create User model
-//Removed virtuals causing error - add in later
 const userSchema = new Schema(
   {
     username: {
